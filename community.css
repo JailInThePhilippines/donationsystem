@@ -1,0 +1,359 @@
+body {
+    background: linear-gradient(to right, #ff8686, #d6d6d6);
+    margin: 0px;
+}
+
+.navbar-container {
+    box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    border-radius: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+.navbar {
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+}
+
+.titleHeaderThree {
+    margin-left: 10px;
+    color: #800080;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.titleHeader{
+    background: linear-gradient(90deg, #ff0000, #800080);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.titleHeaderTwo{
+    color: #800080;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.titleTagLine{
+    background: linear-gradient(90deg, #ff0000, #800080);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 113px;
+    font-weight: bold;
+}
+
+.rightHeader {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.rightHeader a{
+    text-decoration: none;
+    color: inherit; /* Use the parent color by default */
+    }
+
+    .rightHeader a:link,
+    .rightHeader a:visited {
+        color: inherit; /* Use the parent color for normal and visited states */
+    }
+
+    .rightHeader a:hover,
+    .rightHeader a:active {
+        text-decoration: underline; /* Underline only on hover and when active */
+        color: black; /* Set the color to black on hover and when active */
+    }
+
+    .userInitial{
+        background-color: yellowgreen; 
+        border-radius: 50%; color: #fff; 
+        width: 30px; 
+        height: 30px; 
+        text-align: center; 
+        line-height: 30px; 
+        margin-left: 10px;
+    }
+    
+    .navbar-end {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+.body-container{
+    display: flex;
+}
+
+.container-forum {
+    background-color: whitesmoke;
+    height: 380px;
+    width: 1300px;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.forum{
+    display: flex;
+}
+
+.postbtn{
+    height: 40px;
+    width: 100px;
+    margin-left: 1150px;
+    position: absolute;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgreen;
+    transition: background 0.3s ease;
+}
+
+.postbtn:hover, .like-btn:hover, .comment-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.contents{
+    background-color: white;
+    margin: 50px;
+    margin-left: 45px;
+    width: 1190px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.post-box {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.per-post-container{
+    display: flex;
+    margin-left: -1050px;
+    margin-top: 450px;
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.username {
+    font-weight: bold;
+    display: flex;
+    margin-left: 60px;
+    margin-top: -25px;
+}
+
+.timestamp {
+    color: #888;
+}
+
+.like-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: lightgreen;
+    transition: background 0.3s ease;
+    margin-left: 900px;
+    margin-right: 10px;
+}
+
+.comment-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: lightgreen;
+    transition: background 0.3s ease;
+}
+
+.per-post {
+    width: 1250px;
+    margin: 20px auto;
+    margin-left: -250px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.content{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+/* Style for the textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-left: -2px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style for the placeholder text */
+textarea::placeholder {
+    color: #aaa;
+}
+.select {
+    margin-left: 650px;
+}
+
+
+/* Style for the placeholder text */
+textarea::placeholder {
+    color: #aaa;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+/* Add or modify the styles for the comment form container */
+.comment-form-container {
+    width: 1170px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+/* Add this to your existing CSS */
+.hidden {
+    display: none;
+}
+
+.liked {
+    background-color: blue; /* Change this to the desired color */
+    color: white; /* Adjust text color accordingly */
+}
+
+.AddComText {
+    font-size: 25px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.close {
+    top: 900    px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555; /* Adjust the color as needed */
+    margin-left: 700px;
+
+}
+
+.close:hover {
+    color: #333; /* Change color on hover if desired */
+}
+.form-group {
+    margin-top: 25px;
+    margin-bottom: -20px;
+    margin-left: 620px;
+}
+.form-group1 {
+    margin-top: 15px;
+    margin-bottom: -20px;
+}
+
+.commentArea {
+    width: 100%; /* Use 100% width for responsiveness */
+    height: 75px; /* Set your desired height */
+    resize: vertical; /* Allow vertical resizing */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: lightgreen;
+    color: white;
+    font-size: 14px; /* Adjust the font size as needed */
+    padding: 8px 12px; /* Adjust the padding as needed */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 450px;
+}
+
+.btn:hover, .delete-post-btn:hover {
+    background-color: #f3e40f;
+    
+}
+
+.mgaReply {
+    margin-top: 20px;
+}
+
+.comment-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.comment-box p {
+    margin: 0;
+}
+
+.comment-box strong {
+    color: #007BFF; /* Change the color to your preference */
+}
+
+.comment-timestamp {
+    color: #6C757D; /* Change the color to your preference */
+    font-size: 0.8em;
+}
+.delete-post-btn {
+    margin-bottom: -40px;
+    margin-left: 1100px; /* Adjust the left margin to position it next to the Comment button */
+    margin-top: -180px;
+    position: absolute;
+    background-color: lightgreen;
+    color: white;
+    font-size: 14px; /* Adjust the font size as needed */
+    padding: 8px 12px; /* Adjust the padding as needed */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}

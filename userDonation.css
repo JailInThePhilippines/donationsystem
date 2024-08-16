@@ -1,0 +1,412 @@
+body {
+    background: white;
+    margin: 0px;
+    
+}
+
+.navbar-container {
+    box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    z-index: 2;
+    position: relative;
+}
+
+.navbar {
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+}
+
+.titleHeaderThree {
+    margin-left: 10px;
+    color: #800080;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.titleHeader{
+    background: linear-gradient(90deg, #ff0000, #800080);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.titleHeaderTwo{
+    color: #800080;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.titleTagLine{
+    background: linear-gradient(90deg, #ff0000, #800080);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.navbar-end {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.userInitial{
+    background-color: yellowgreen; 
+    border-radius: 50%; color: #fff; 
+    width: 30px; 
+    height: 30px; 
+    text-align: center; 
+    line-height: 30px; 
+    margin-left: 10px;
+}
+
+.rightHeader {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.rightHeader a{
+    text-decoration: none;
+    color: inherit; /* Use the parent color by default */
+    }
+
+    .rightHeader a:link,
+    .rightHeader a:visited {
+        color: inherit; /* Use the parent color for normal and visited states */
+    }
+
+    .rightHeader a:hover,
+    .rightHeader a:active {
+        text-decoration: underline; /* Underline only on hover and when active */
+        color: black; /* Set the color to black on hover and when active */
+    }
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.body-left-container{
+    background-color: grey;
+    width: 950px;
+    height: 950px;
+}
+
+.body-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.contentO{
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin-left: 130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+}
+
+.contentT{
+    font-size: 100px;
+    margin-left: 130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.contentThO{
+    font-size: 100px;
+    margin-left: 220px;
+    color: rgb(209, 209, 4);
+}
+
+.contentThT{
+    font-size: 100px;
+    margin-left: 285px;
+    color: rgb(209, 209, 4);
+}
+
+.contentThTh{
+    font-size: 100px;
+    margin-left: 200px;
+    color: rgb(209, 209, 4);
+}
+
+.donationButton{
+    width: 430px;
+    height: 70px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.amountDonor{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 230px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.donorAmountInfo{
+    display: flex;
+    flex-direction: row;
+}
+
+.amountDonorT{
+    font-size: 25px;
+    margin-top: 90px;
+    margin-left: -115px;
+}
+
+.amountRaised{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.amountRaisedT{
+    font-size: 25px;
+    margin-top: 90px;
+    margin-left: -150px;
+}
+
+.body-right-container{
+    background-color: white;
+    width: 950px;
+    height: 950px;
+    margin-left: 950px;
+    margin-top: -950px;
+}
+
+.body-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightContent{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 100px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.image-container{
+    display: flex;
+}
+
+.imageOne{
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    margin-left: 215px;
+    border-radius: 10px;
+}
+
+.imageTwo{
+    width: 250px;
+    height: 200px;
+    margin-top: 560px;
+    margin-left: -500px;
+    border-radius: 10px;
+}
+
+.imageThree{
+    width: 240px;
+    height: 200px;
+    margin-top: 560px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.link{
+    margin-top: 780px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -360px;
+}
+
+.footerContainer{
+    background-color: white;
+    margin: auto;
+    width: auto;
+    height: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px -8px 13px 1px rgba(191,122,122,0.63);
+    -webkit-box-shadow: 0px -8px 13px 1px rgba(191,122,122,0.63);
+    -moz-box-shadow: 0px -8px 13px 1px rgba(191,122,122,0.63);
+}
+.footerContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.teamName, .projectPurpose{
+    color: black;
+    margin-right: -1450px;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.saveITLogo{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.gcLogo{
+    height: 100px;
+    width: 150px; 
+    margin-left: 1350px;
+    margin-top: -900px;
+}
+
+@media screen and (max-width: 1366px){
+    .body-left-container{
+        width: 700px;
+        height: 800px;
+    }
+
+    .contentO{
+        font-size: 70px;
+    }
+    .contentT{
+        font-size: 70px;
+        margin-left: 145px;
+    }
+    .contentThO{
+        font-size: 70px;
+        margin-left: 195px;
+    }
+    .contentThT{
+        font-size: 70px;
+        margin-left: 235px;
+    }
+    .contentThTh{
+        font-size: 70px;
+        margin-left: 175px;
+    }
+
+    .donationButton{
+        width: 350px;
+        margin-left: 150px;
+    }
+
+    .amountDonor{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .amountDonorT{
+        margin-top: 110px;
+    }
+    .amountRaised{
+        margin-top: 50px;
+    }
+    .amountRaisedT{
+        margin-top: 110px;
+    }
+
+    .body-right-container{
+        width: 715px;
+        margin-left: 650px;
+    }
+
+    .rightContent{
+        text-align: center;
+        margin-top: 200px;
+        font-size: 60px;
+    }
+
+    .imageOne{
+        margin-top: 50px;
+        width: 300px;
+        height: 300px;
+        margin-left: 215px;
+        border-radius: 10px;
+    }
+    
+    .imageTwo{
+        width: 150px;
+        height: 150px;
+        margin-top: 360px;
+        margin-left: -300px;
+        border-radius: 10px;
+    }
+    
+    .imageThree{
+        width: 140px;
+        height: 150px;
+        margin-top: 360px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+
+    .link{
+        margin-top: 550px;
+        margin-left: -285px;
+    }
+
+    .footerContainer{
+        margin-left: 0px;
+    }
+
+    .projectPurpose{
+        color: black;
+        margin-left: 400px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    
+    .saveITLogo{
+        height: 100px;
+        width: 100px;
+        margin-left: 50px;
+    }
+    
+    .gcLogo{
+        height: 100px;
+        width: 150px; 
+        margin-left: 900px;
+        margin-top: -900px;
+    }
+}

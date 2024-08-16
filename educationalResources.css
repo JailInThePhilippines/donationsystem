@@ -1,0 +1,514 @@
+body {
+    background: linear-gradient(to left, #ff8686, #d6d6d6);
+    margin: 0px;
+}
+
+.navbar-container {
+    border-radius: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+.navbar {
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+}
+
+.titleHeaderThree {
+    margin-left: 10px;
+    color: #800080;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.titleHeader{
+    background: linear-gradient(90deg, #ff0000, #800080);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.titleHeaderTwo{
+    color: #800080;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.titleTagLine{
+    background: linear-gradient(90deg, #ff0000, #800080);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 95px;
+    font-weight: bold;
+}
+
+.rightHeader {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.rightHeader a{
+    text-decoration: none;
+    color: inherit; /* Use the parent color by default */
+    }
+
+    .rightHeader a:link,
+    .rightHeader a:visited {
+        color: inherit; /* Use the parent color for normal and visited states */
+    }
+
+    .rightHeader a:hover,
+    .rightHeader a:active {
+        text-decoration: underline; /* Underline only on hover and when active */
+        color: black; /* Set the color to black on hover and when active */
+    }
+
+    .userInitial{
+        background-color: yellowgreen; 
+        border-radius: 50%; color: #fff; 
+        width: 30px; 
+        height: 30px; 
+        text-align: center; 
+        line-height: 30px; 
+        margin-left: 10px;
+    }
+    
+    .navbar-end {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .image-container img{
+        width: 1903px;
+        height: 1000px;
+        display: flex;
+    }
+
+    .title-containerTwo{
+        display: flex;
+        flex-direction: column;
+        margin-top: -600px;
+        text-align: center;
+    }
+
+    .titleText, .titleTextTwo{
+        font-size: 130px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 5px;
+        color: white;
+    }
+
+    .mainBody{
+        margin-top: 300px;
+        display: flex;
+        flex-direction: row;
+        background-color: #233A59;
+        height: 600px;
+        margin-bottom: 50px;
+    }
+
+    .articles{
+        color: white;
+        margin-top: 10px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .articleOne {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleOne.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+    }
+
+    .articleTwo {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleTwo.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+    }
+
+    .articleThree {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleThree.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+    }
+
+    .articleFour {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleFour.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+    }
+
+    .articleOne:hover, .articleTwo:hover, .articleThree:hover, .articleFour:hover, .articleFive:hover, 
+    .articleSix:hover, .articleSeven:hover, .articleEight:hover, .articleNine:hover, .articleTen:hover{
+        transform: scale(1.1);
+    }
+
+    .textContainer{
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        margin-top: 500px;
+        margin-left: 225px;
+    }
+
+    .articleOneText{
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        margin-right: 50px;
+    }
+    .articleTwoText{
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        margin-right: 100px;
+        margin-left: 115px;
+    }
+    .articleThreeText{
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        margin-right: 85px;
+    }
+    .articleFourText{
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        margin-right: 50px;
+    }
+
+    .bottomTitle-container{
+        width: 600px;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 50px;
+        margin-left: 635px;
+        display: flex;
+    }
+
+    .bottomTitle{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        text-wrap: nowrap;
+        margin-top: 35px;
+        margin-left: 50px;
+    }
+
+    .bodyContainer{
+        background-color: white;
+        margin-top: 70px;
+        width: 1650px;
+        height: 1100px;
+        margin-left: 100px;
+        border-radius: 50px;
+        margin-bottom: 100px;
+    }
+
+    .articleFive {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleFive.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+        margin-left: 250px;
+    }
+
+    .articleSix {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleSix.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+    }
+
+    .articleSeven {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleSeven.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+    }
+
+    .articleEight {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleEight.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+        margin-left: 250px;
+    }
+
+    .articleNine {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleNine.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+    }
+
+    .articleTen {
+        width: 350px;
+        height: 350px;
+        background-image: url('articleTen.png');
+        background-size: cover;
+        border-color: skyblue;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 100px;
+        transition: transform 0.3s ease;
+        margin-right: 50px;
+    }
+    
+    .scrollToTop-container{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        margin-left: 725px;
+        margin-top: 50px;
+    }
+
+    .scrollToTop{
+        width: 100%;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        transition: background 0.3s ease;
+    }
+
+    .scrollToTop:hover{
+        background-color: whitesmoke;
+        color: black;
+    }
+
+@media screen and (max-width: 1366px){
+    .image-container img{
+        width: 1366px;
+    }
+    .titleText, .titleTextTwo{
+        font-size: 100px;
+        letter-spacing: 5px;
+    }
+    .articleOne{
+        width: 430px;
+        height: 350px;
+        margin-left: -115px;
+        margin-top: 150px;
+        margin-right: 165px;
+    }
+    .articleTwo{
+        width: 430px;
+        height: 350px;
+        margin-left: -130px;
+        margin-top: 150px;
+        margin-right: 165px;
+    }
+    .articleThree{
+        width: 430px;
+        height: 350px;
+        margin-left: -130px;
+        margin-top: 150px;
+        margin-right: 165px;
+    }
+    .articleFour{
+        width: 430px;
+        height: 350px;
+        margin-left: -130px;
+        margin-top: 150px;
+    }
+    .articles{
+        margin-top: 100px;
+    }
+
+    .textContainer{
+        margin-top: 520px;
+        margin-left: 80px;
+    }
+
+    .articleOneText{
+        margin-right: 20px;
+        text-wrap: nowrap;
+    }
+    .articleTwoText{
+        margin-right: 90px;
+        margin-left: 75px;
+        text-wrap: nowrap;
+    }
+    .articleThreeText{
+        margin-right: -10px;
+    }
+    .articleFourText{
+        margin-left: -20px;
+        overflow-wrap: break-word;
+    }
+
+    .bottomTitle-container{
+        width: 600px;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 50px;
+        margin-left: 400px;
+        display: flex;
+    }
+
+    .bottomTitle{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        text-wrap: nowrap;
+        margin-top: 35px;
+        margin-left: 50px;
+    }
+
+    .bodyContainer{
+        background-color: white;
+        margin-top: 70px;
+        width: 1166px;
+        height: 1200px;
+        margin-left: 100px;
+        border-radius: 50px;
+        margin-bottom: 100px;
+    }
+
+    .articleFive {
+        width: 250px;
+        height: 250px;
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 220px;
+    }
+
+    .articleSix {
+        width: 250px;
+        height: 250px;
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 220px;
+    }
+
+    .articleSeven {
+        width: 250px;
+        height: 250px;
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 220px;
+    }
+
+    .articleEight {
+        width: 250px;
+        height: 250px;
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 220px;
+    }
+
+    .articleNine {
+        width: 250px;
+        height: 250px;
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 220px;
+    }
+
+    .articleTen {
+        width: 250px;
+        height: 250px;
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 220px;
+    }
+
+    .scrollToTop-container{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+}
